@@ -1,0 +1,197 @@
+/*style.css*/
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFF6F6;
+    padding: 0;
+    margin:0;
+    margin-bottom: 20px;
+  }
+  
+  /* Shared background for both nav and hero section */
+  header{
+    background-image: url("photos/backgroundedit.png");
+    background-position: center;
+    background-size:cover;
+  }
+  .navigation .logo {
+    position: absolute;
+    top: 56px; 
+    left: 80px;
+  }
+  .navigation {
+    padding: 56px 80px 0px 80px;
+    text-align: right;
+    position:relative;
+  }
+  .inline-bloc{
+    display: inline-block;
+  }
+  .inline-bloc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  } 
+  .inline-bloc li {
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 16px;
+    color: #fff;
+  }
+  .hero {
+    text-align: center;
+    color:#fff;
+    padding-bottom: 80px;
+  }
+  
+  .hero .content {
+    color:#fff;
+    max-width: 658px;
+    margin-top: 150px;
+    margin-left: 240px;
+    margin: 0 auto;
+  }
+  .hero h1 {
+    font-size: 56px; /* Adjust the font size for the heading */
+    margin-bottom: 36px; /* Add margin below the heading for spacing */
+  }
+  
+  .hero p {
+    font-size: 16px; /* Adjust the font size for the content */
+    line-height: 1.5; /* Set line height for better readability */
+    margin-bottom: 48px;
+  }
+
+  
+  button.primary {
+    background-color: #EAC773; 
+    color: black;
+    font-size: 16px;
+    padding: 16px 24px;
+    margin-right:24px;
+    border-radius: 8px; 
+    font-weight: medium;
+    width: 158px;
+    height: 56px;
+    border: 2px solid #EAC773;
+  }
+  
+  button.secondary {
+    background-color: transparent; 
+    color: #EAC773;
+    padding: 16px 24px;
+    width: 158px;
+    height: 56px;
+    font-size: 16px;
+    margin: 0;
+    border-radius: 8px; 
+    border: 2px solid #EAC773;
+    font-weight: medium;
+  }
+  
+  /* Additional styles for the footer section */
+  footer {
+    background-color: #fff;
+    color: black;
+    padding: 10px 10px;
+    text-align: center;
+    margin-top: 88px;
+    margin-right: 80px;
+    margin-left: 80px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Adjusted the box-shadow */
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    text-align: left;
+    max-width: 520px; /* Adjust the max-width as needed */
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.left-section h2 {
+    font-size: 88px; 
+    color:black; 
+    margin-bottom: 10px; 
+    font-weight: 100;
+    margin-top: 40px;
+    line-height: 1;
+}
+
+.left-section p {
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+    line-height: 1.5; /* Set line height for better readability */
+    margin-bottom: 20px; /* Add margin below the p for spacing */
+}
+.right-section h3,
+.right-section h4,
+.right-section h5,
+.right-section h6,
+.right-section h7,
+.right-section h8 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.right-section h3 {
+    margin-right: 480px;
+    display: inline-block;
+}
+
+.right-section h4.email-label {
+    display: inline-block;
+    margin-left: 0px; /* Adjust the margin for the EMAIL label */
+}
+
+.right-section h5,
+.right-section h6,
+.right-section h7,
+.right-section h8 {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 40px;
+}
+
+/* Additional styles for the social-icons */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin:40px;
+    margin-left: 240px;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 40px;
+}
+button.send{
+    background-color: #EAC773; 
+    color: black;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 8px; 
+    font-weight: medium;
+    width: 158px;
+    height: 56px;
+    border: 2px solid #EAC773;
+    
+}
+/* Adjusted the padding and box-shadow for the copyright */
+.copyright {
+    background-color: transparent;
+    color: black;
+    padding: 20px 10px; /* Adjusted the padding */
+    text-align: center;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 2;
+}
